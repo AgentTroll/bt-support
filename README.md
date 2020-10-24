@@ -92,7 +92,8 @@ you are using GNU ARM Embedded) and `ZEPHYR_BASE`.
 This project **requires** `OpenOCD`. `PyOCD` WILL NOT WORK.
 At the time of writing, you **CANNOT** download an OpenOCD
 package to use the STLink. You must build the latest
-version of OpenOCD with the `--enable-cmsis-dap` flag.
+version of OpenOCD from their git repository in order to
+work with an STLink+nRF52840.
 
 The project contains an `openocd.cfg` template that should
 be used to manually flash or debug the board.
